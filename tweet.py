@@ -71,13 +71,12 @@ class TwitterListener(StreamListener):
             
             pred = model.predict(input)
             
-            print('\n',tweetText,'\n')
+            print('\n',tweetText)
             
             print('****',labels[np.argmax(pred)], 'Tweet')
             
             # print("%s \n the %s sentiment; %f%% confidence" % (tweetText ,labels[np.argmax(pred)], pred[0][np.argmax(pred)] * 100))
-            
-            print(json.loads(data)['text'])
+      
             with open(self.fetched_tweets_filename, 'a') as tf:
                 tf.write(data)
             return True
