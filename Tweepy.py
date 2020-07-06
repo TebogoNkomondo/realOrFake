@@ -3,6 +3,7 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy import API
 from tweepy import Cursor
+import json
 
 
 import credentials
@@ -32,7 +33,7 @@ class TwitterListener(StreamListener):
     
     def on_data(self, data):
         try:
-            print(data)
+            print(json.loads(data)['text'])
             with open(self.fetched_tweets_filename, 'a') as tf:
                 tf.write(data)
             return True
