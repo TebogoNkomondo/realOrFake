@@ -23,8 +23,8 @@ def convert_text_to_index_array(text):
     for word in words:
         if word in dictionary:
             wordIndices.append(dictionary[word])
-        else:
-            print("'%s' not in training corpus; ignoring." %(word))
+        # else:
+        #     print("'%s' not in training corpus; ignoring." %(word))
     return wordIndices
 
 # read in your saved model structure
