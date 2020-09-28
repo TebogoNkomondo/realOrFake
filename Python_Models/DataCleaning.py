@@ -1,6 +1,9 @@
+import keras.preprocessing.text as kpt
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import PorterStemmer
+import re
+import string
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -50,17 +53,6 @@ def sentenceStemmer(text):
     #end for
     return "".join(corpus)
 #end sentenceStemmer
-
-def convert_text_to_index_array(text):
-    words = kpt.text_to_word_sequence(text)
-    # words = pad_sequences(words, padding='post', maxlen=23)
-    # print(text)
-    wordIndices = []
-    for word in words:
-        if word in dictionary:
-            wordIndices.append(dictionary[word])
-    return wordIndices
-#end convert_text_to_index_array
 
 #remove emojis from text
 def remove_emoji(text):
