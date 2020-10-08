@@ -26,4 +26,6 @@
 
 ### Live Prediction
 
+- The python Tweepy library was used to connect to Twitter's API.
+- Twitter's API was used to extract tweets and classify them in real time as shown on the livePredictor.ipynb file.
 - The credentials.py file has been ommitted from the github repo as this file contains personal Twitter developer account credentials.
