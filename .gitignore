@@ -4,3 +4,4 @@ nlp-getting-started/stanford-ner-4.0.0/
 Python_Models/credentials.py
 Python_Models/**__pycache__**
 **__pycache__**
+**/.vscode**
