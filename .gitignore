@@ -1,7 +1,7 @@
 nlp-getting-started/glove.twitter.27B/
 nlp-getting-started/stanford-corenlp-4.1.0-models-english.jar
 nlp-getting-started/stanford-ner-4.0.0/
-Python_Models/credentials.py
 Python_Models/**__pycache__**
 **__pycache__**
 **/.vscode**
+Python_Models/credentials.py
