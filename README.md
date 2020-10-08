@@ -17,3 +17,13 @@
 - Multi-Layer Perceptron(MLP)
 - Recurrent Neural Networks(RNN)
 - Long Short-Term Memory(LSTM) Networks
+
+### Files
+
+- A base model which uses One-Hot Encodings and MLP is found on the BaseModel.ipynb file.
+- Models using the Keras Embedding Layer are found on the Keras_Embedding_Layer.ipynb files.
+- Models using Pre-Trained Embeddings are found on the Word2VecModels.ipynb and GloveModels.ipynb files
+
+### Live Prediction
+
+- The credentials.py file has been ommitted from the github repo as this file contains personal Twitter developer account credentials.
