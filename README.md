@@ -29,3 +29,25 @@
 - The python Tweepy library was used to connect to Twitter's API.
 - Twitter's API was used to extract tweets and classify them in real time as shown on the livePredictor.ipynb file.
 - The credentials.py file has been ommitted from the github repo as this file contains personal Twitter developer account credentials.
+
+### Repo Directory:
+
+All of the important models in this project are found on the following directories within the repo:
+
+1. Base model: BaseModel.ipynb
+2. Word2Vec models: Word2VecModels.ipynb
+3. Keras Embedding Layer Models: Keras_Embedding_Layer.ipynb
+4. GloVe Models: GloveModels.ipynb
+5. Live Prediction using Glove+LSTM model: livePredictor.ipynb 
+6. Comparison of feature extraction techniques: miscellaneous/feature_extraction_techniques_comparison.ipynb
+7. Investigation of influence of location on classification: 
+            - miscellaneous/influence_location_performance.ipynb
+            - Keras_Embedding_Layer_With_Location_Feature.ipynb
+8. Correction of location names: miscellaneous/namesCorrection.ipynb
+9. Optimization of Word2vec models: miscellaneous/word2vecOptimization.ipynb
+10. Data Exploration: Exploring dataset.ipynb
+11. Dictionary models: /Dictionary_Models/
+12. Embedding Layer models: /Embedding_Models/
+13. Neural network models and weights: /NN_Models/
+14. Licenses: /Licenses/
+15. Datasets: /nlp-getting-started/
