@@ -38,17 +38,19 @@ All of the important models in this project are found on the following directori
 2. Word2Vec models: Word2VecModels.ipynb
 3. Keras Embedding Layer Models: Keras_Embedding_Layer.ipynb
 4. GloVe Models: GloveModels.ipynb
-5. Live Prediction using Glove+LSTM model: livePredictor.ipynb 
-6. Comparison of feature extraction techniques: miscellaneous/feature_extraction_techniques_comparison.ipynb
-7. Investigation of influence of location on classification: 
-  - miscellaneous/influence_location_performance.ipynb
-  - Keras_Embedding_Layer_With_Location_Feature.ipynb
-8. Correction of location names: miscellaneous/namesCorrection.ipynb
-9. Deep learning based predictor: locationPrediction.ipynb
-10. Optimization of Word2vec models: miscellaneous/word2vecOptimization.ipynb
-11. Data Exploration: Exploring dataset.ipynb
-12. Dictionary models: /Dictionary_Models/
-13. Embedding Layer models: /Embedding_Models/
-14. Neural network models and weights: /NN_Models/
-15. Licenses: /Licenses/
-16. Datasets: /nlp-getting-started/
+5. Live Prediction using Glove+LSTM model: livePredictor.ipynb
+6. Predictions on test dataset: predictions_on_test_dataset.ipynb
+7. Results from predictions on test dataset: output.txt
+8. Comparison of feature extraction techniques: miscellaneous/feature_extraction_techniques_comparison.ipynb
+9. Investigation of influence of location on classification:
+   - miscellaneous/influence_location_performance.ipynb
+   - Keras_Embedding_Layer_With_Location_Feature.ipynb
+10. Correction of location names: miscellaneous/namesCorrection.ipynb
+11. Deep learning based predictor: locationPrediction.ipynb
+12. Optimization of Word2vec models: miscellaneous/word2vecOptimization.ipynb
+13. Data Exploration: Exploring dataset.ipynb
+14. Dictionary models: /Dictionary_Models/
+15. Embedding Layer models: /Embedding_Models/
+16. Neural network models and weights: /NN_Models/
+17. Licenses: /Licenses/
+18. Datasets: /nlp-getting-started/
