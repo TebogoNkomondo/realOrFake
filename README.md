@@ -41,8 +41,8 @@ All of the important models in this project are found on the following directori
 5. Live Prediction using Glove+LSTM model: livePredictor.ipynb 
 6. Comparison of feature extraction techniques: miscellaneous/feature_extraction_techniques_comparison.ipynb
 7. Investigation of influence of location on classification: 
-            - miscellaneous/influence_location_performance.ipynb
-            - Keras_Embedding_Layer_With_Location_Feature.ipynb
+  - miscellaneous/influence_location_performance.ipynb
+  - Keras_Embedding_Layer_With_Location_Feature.ipynb
 8. Correction of location names: miscellaneous/namesCorrection.ipynb
 9. Optimization of Word2vec models: miscellaneous/word2vecOptimization.ipynb
 10. Data Exploration: Exploring dataset.ipynb
