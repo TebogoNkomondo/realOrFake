@@ -44,10 +44,11 @@ All of the important models in this project are found on the following directori
   - miscellaneous/influence_location_performance.ipynb
   - Keras_Embedding_Layer_With_Location_Feature.ipynb
 8. Correction of location names: miscellaneous/namesCorrection.ipynb
-9. Optimization of Word2vec models: miscellaneous/word2vecOptimization.ipynb
-10. Data Exploration: Exploring dataset.ipynb
-11. Dictionary models: /Dictionary_Models/
-12. Embedding Layer models: /Embedding_Models/
-13. Neural network models and weights: /NN_Models/
-14. Licenses: /Licenses/
-15. Datasets: /nlp-getting-started/
+9. Deep learning based predictor: locationPrediction.ipynb
+10. Optimization of Word2vec models: miscellaneous/word2vecOptimization.ipynb
+11. Data Exploration: Exploring dataset.ipynb
+12. Dictionary models: /Dictionary_Models/
+13. Embedding Layer models: /Embedding_Models/
+14. Neural network models and weights: /NN_Models/
+15. Licenses: /Licenses/
+16. Datasets: /nlp-getting-started/
